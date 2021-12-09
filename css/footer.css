@@ -1,0 +1,22 @@
+body>footer
+{
+    display: flex;
+    justify-content:start;
+    gap: 25%;
+    padding-top: 30px;
+    background-color: #f2f2f2;
+}
+body>footer>h3
+{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+body>footer>div
+{
+    margin-left: 20px;
+}
+body>footer>div>ul
+{
+    padding: 0%;
+}
+body>footer>div>ul{list-style: none;}

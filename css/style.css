@@ -1,0 +1,43 @@
+/*
+page entière marge et font
+*/
+:root
+{
+    font-family: raleway;/*définir la font demander*/
+  
+}
+/*taille mise en forme des titre principaux*/
+h1{
+    font-size: 15px;
+    margin: 0px;/*annuler les marge automatiques*/
+    font-weight: bold;
+}
+h2{
+    font-size: 15px;
+    font-weight: bold;
+}
+h3{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}
+/*taille mise en forme des paragraphe*/
+p
+{
+    font-size: 10px;
+    margin: 0px;/*annuler les marge automatiques*/
+}
+a:hover
+{
+    color: #0065fc;
+       border: solid 1px rgb(183, 0, 255);
+       border-radius: 5px;
+}
+#infos>i{
+height: 16px;
+width: 16px;
+text-align: center;
+line-height: 10px;
+border: solid 2px #f2f2f2;
+background-color: white;
+}

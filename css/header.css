@@ -1,0 +1,95 @@
+  header{
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+  /*logo et menu nav*/
+   #en-tête
+   {
+       display: flex;
+       justify-content: space-between;
+      
+   }
+   #en-tête img{
+       height: 50px;
+   }
+   /*lien ancre page*/
+   nav{
+       display: flex;/*definir le nav comme un conteneur flex*/
+       justify-content: space-between; /*espace entre les deux lien du nav*/
+       font-size: 10px; /*taille du texte dans le nav*/
+       align-items: center;
+   }
+   /*lien ancre page activer*/
+   nav a.active
+   {
+       border-top: #0065fc solid 2px;
+       color: #0065fc;
+       font-weight: bold;
+   }
+   nav a{padding: 30px 20px 30px 20px;}
+header>form{
+    display: flex;
+    justify-content: start;
+}
+header>form>i{border-radius: 5px 0px 0px 5px;margin-right: 0px;line-height: 25px !important;background-color: #f2f2f2;color: black;}
+header>form>input{border-radius: 0px;border: 1px solid#f2f2f2;}
+header>form>button{border-radius: 0px 5px 5px 0px;background-color: #0065fc;color: white;font-size:75%;border: none;}
+
+   /*menu filtres mise en forme*/
+   #filtres
+   {
+       display: flex;
+       margin-top: 10px;/*définir une marge entre le future formulaire et les filtres*/
+       justify-content: space-between;
+       width: 75%;
+       align-items: center;
+   }
+   /*lien filtre bloc paragraphe*/
+   #filtres p
+   {
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+         width: 80%;
+   }
+     /*lien filtre*/
+   #filtres p a
+   {
+    border: solid 2px #f2f2f2;
+    border-radius: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 25px;
+    padding: 5px 10px 5px 0px;
+    flex-shrink: 0;
+   }
+   #filtres>p>a>i{margin-right: 10px;line-height: 25px;padding: 0px;}
+   /*lien filtre au survol*/
+   #filtres p a:hover
+   {
+    color: #0065fc;
+    border: solid 1px rgb(183, 0, 255);
+    border-radius: 5px;
+   }
+ 
+   
+   #infos
+   {
+       margin-top: 10px;
+       margin-bottom: 20px;
+   }
+ header i
+ {
+    background-color: #deebff;
+    color: #0065fc;
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+
+ }
+ @media screen and (max-width: 768px){};
+ @media screen and (max-width: 992px)and(min-width: 768px){};
+ @media screen and (max-width: 992px){};
