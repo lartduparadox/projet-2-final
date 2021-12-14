@@ -106,5 +106,9 @@ header>div#filtres{width: 100%;}
 header>div#filtres>h1{flex-basis: 100%; flex-wrap: wrap;margin-bottom: 5px;}
 header>div#filtres>p{flex-wrap: wrap;}
  }
- @media screen and (max-width: 992px)and(min-width: 768px){};
+ @media screen and (max-width: 992px)and(min-width: 768px)
+ {
+
+    
+ };
  @media screen and (max-width: 992px){};

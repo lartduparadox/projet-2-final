@@ -126,9 +126,25 @@ main>aside>a>div>div>p{margin: 0px !important;}
 main>div#activitées{order: 3;}
 main>section#section_2{order: 4;flex-direction: row!important; height: auto!important; margin: 0px 20px 0px 20px !important;}
 main>section#section_2>a{flex-basis: 100%!important; height: 150px!important; }
-}; 
-@media screen and (max-width: 992px)and(min-width: 768px){}; /*tablette*/
-@media screen and (max-width: 992px){}; /*Les deux*/
+}
+@media screen and (max-width: 992px)and(min-width: 768px) /*tablette*/
+{
+main>section#section_1{order: 1;flex-basis: 100% !important;flex-wrap: wrap; width: auto !important;}
+main>aside{order: 0 !important;flex-basis: 100%;}
+main>section#section_2{order: 3;}
+main>div#activitées{order: 2;}
+
+}
+@media screen and (max-width: 992px)  /*Les deux*/
+{
+main{margin: 0px !important;}
+main>section#section_1{order: 1;flex-basis: 100% !important;flex-wrap: wrap; width: auto !important; background:none !important;}
+main>section#section_1>a>div{margin:0% !important}
+main>aside{order: 0 !important;flex-basis: 100%; border-radius: 0px !important ;}
+main>section#section_2{order: 3;margin: 0px 20px 0px 20px !important;}
+main>div#activitées{order: 2;margin: 0px 20px 0px 20px !important;}
+
+};
 
 
 

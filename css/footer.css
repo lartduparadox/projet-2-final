@@ -27,3 +27,10 @@ footer{gap: 0px !important; flex-wrap: wrap;}
 footer>div{flex-basis: 100% !important;padding-top: 10px;}
 footer>div>ul{margin-top: 10px;}
 }
+
+@media screen and (max-width: 992px)
+{
+footer{justify-content: space-around !important; gap: 0px !important;}
+footer>div{}
+footer>div>ul{}
+}
