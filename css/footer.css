@@ -20,3 +20,10 @@ body>footer>div>ul
     padding: 0%;
 }
 body>footer>div>ul{list-style: none;}
+
+@media screen and (max-width: 768px)
+{
+footer{gap: 0px !important; flex-wrap: wrap;}
+footer>div{flex-basis: 100% !important;padding-top: 10px;}
+footer>div>ul{margin-top: 10px;}
+}

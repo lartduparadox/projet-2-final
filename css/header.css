@@ -20,7 +20,7 @@
        align-items: center;
    }
    /*lien ancre page activer*/
-   nav a.active
+   nav a.active, nav a:hover
    {
        border-top: #0065fc solid 2px;
        color: #0065fc;
@@ -28,6 +28,7 @@
    }
    nav a{padding: 30px 20px 30px 20px;}
 header>form{
+    margin-top: 15px;
     display: flex;
     justify-content: start;
 }
@@ -39,10 +40,11 @@ header>form>button{border-radius: 0px 5px 5px 0px;background-color: #0065fc;colo
    #filtres
    {
        display: flex;
-       margin-top: 10px;/*définir une marge entre le future formulaire et les filtres*/
+       margin-top: 20px;/*définir une marge entre le future formulaire et les filtres*/
        justify-content: space-between;
        width: 75%;
        align-items: center;
+       flex-wrap: wrap;
    }
    /*lien filtre bloc paragraphe*/
    #filtres p
@@ -76,7 +78,7 @@ header>form>button{border-radius: 0px 5px 5px 0px;background-color: #0065fc;colo
    
    #infos
    {
-       margin-top: 10px;
+       margin-top: 20px;
        margin-bottom: 20px;
    }
  header i
@@ -90,6 +92,19 @@ header>form>button{border-radius: 0px 5px 5px 0px;background-color: #0065fc;colo
     width: 25px;
 
  }
- @media screen and (max-width: 768px){};
+ @media screen and (max-width: 768px)
+ {
+header{margin: 0px;}
+header>#en-tête{flex-wrap: wrap;justify-content: center;margin: 0px;}
+header>#en-tête>img{flex-basis: 50%; margin-bottom: 10px;padding: 20px 0px 0px 50px;} /*padding a changer quand je sais comment changer d'image*/
+header>#en-tête>nav{flex-basis: 100%;justify-content:space-around;margin-bottom: 20px;}
+header>#en-tête>nav>a{padding: 30px 0px 30px 50px;flex-basis: 100%;padding: 30px 0px 5px 50px;border-bottom: #f2f2f2 solid 2px;}
+header>#en-tête>nav>a.active, header>#en-tête>nav>a:hover {border-top: none;border-bottom: #0065fc solid 2px;}
+header>h1,p,form,div{margin: 0px 20px 0px 20px;}
+header>form{justify-content: center; margin-top: 20px;}
+header>div#filtres{width: 100%;}
+header>div#filtres>h1{flex-basis: 100%; flex-wrap: wrap;margin-bottom: 5px;}
+header>div#filtres>p{flex-wrap: wrap;}
+ }
  @media screen and (max-width: 992px)and(min-width: 768px){};
  @media screen and (max-width: 992px){};
